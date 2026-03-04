@@ -7,10 +7,10 @@ This project is a lightweight task management application built using core web t
 It demonstrates fundamental front-end development skills such as DOM manipulation and event handling.
 
 ## The application allows users to:
-➕ Add new tasks
-✔️ Mark tasks as completed
-🗑️ Delete tasks
-📋 View the list of tasks
+* ➕ Add new tasks
+* ✔️ Mark tasks as completed
+* 🗑️ Delete tasks
+* 📋 View the list of tasks
 The interface is clean and intuitive, making it easy to use.
 
 ## 🔗 Demo
