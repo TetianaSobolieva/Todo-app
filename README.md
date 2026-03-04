@@ -1,22 +1,25 @@
-# React Todo App with API
-A full-stack Todo application with user authentication, built with React + TypeScript on the frontend and a custom Node.js REST API backed by PostgreSQL.
+# 📋 React Todo App with API
+ToDo App is a simple and user-friendly web application for managing daily tasks.
+It allows users to create, track, and organize their to-do items efficiently.
+
+# 🚀 About the Project
+This project is a lightweight task management application built using core web technologies.
+It demonstrates fundamental front-end development skills such as DOM manipulation and event handling.
+
+## The application allows users to:
+➕ Add new tasks
+✔️ Mark tasks as completed
+🗑️ Delete tasks
+📋 View the list of tasks
+The interface is clean and intuitive, making it easy to use.
 
 ## 🔗 Demo
 [Live Demo](https://tetianasobolieva.github.io/Todo-app/)
 ## 🛠 Tech Stack
-**Frontend**
 * **React** — component-based UI
 * **TypeScript** — static typing
 * **SCSS** — component styles
 * **Vite** — build tool and dev server
-**Backend**
-* **Node.js** — custom REST API
-* **PostgreSQL** — relational database
-* **bcrypt** — password hashing
-* **JWT** — token-based authentication
-**Tooling**
-* **Cypress** — end-to-end testing
-* **ESLint** + Prettier + Stylelint — code quality and formatting
 
 ## 📁 Project Structure
 ```text
@@ -47,24 +50,8 @@ cd react_todo-app-with-api
 # Install dependencies
 npm install
 ```
-### Environment Variables
-Create a .env file in the root (or update the existing one)
 ### Running the App
 ```bash
-# Start the frontend
 npm start
-
-# Start the backend (if separate)
-npm run server
 ```
 The app will be available at http://localhost:5173
-### Running E2E Tests
-```bash
-npm run cypress:open
-```
-## 🔐 Authentication Flow
-1. User registers with email and password
-2. Password is hashed with bcrypt before storing in PostgreSQL
-3. On login, server validates credentials and returns a JWT token
-4. Token is stored on the client and sent with each API request
-5. Protected routes require a valid token
