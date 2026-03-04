@@ -42,16 +42,12 @@ TODO-APP/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/MaksOther/react_todo-app-with-api.git
-
-# Navigate to the project
-cd react_todo-app-with-api
+git clone https://github.com/TetianaSobolieva/react_todo-app-with-api.git
 
 # Install dependencies
 npm install
 ```
-### Running the App
+### Running the App localy
 ```bash
 npm start
 ```
-The app will be available at http://localhost:5173
