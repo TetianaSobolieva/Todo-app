@@ -38,7 +38,6 @@ TODO-APP/
 ## 🚀 Getting Started
 ### Prerequisites
 - **Node.js v18+**
-- **PostgreSQL running locally**
 ### Installation
 ```bash
 # Clone the repository
